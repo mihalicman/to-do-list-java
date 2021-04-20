@@ -1,5 +1,5 @@
 body {
-    background-color: lightpink;
+    background-color: navajowhite;
 }
 
 h1 {
@@ -14,11 +14,29 @@ h1 {
     align-items: center;
 }
 
-#pievienotUzdevumu {
+#jaunaisUzdevums {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 235px;
     height: 50px;
     font-size: 26px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+#popUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color:lightgrey;
+    font-size: 30px;
+}
+
+#form {
+    background-color: lightyellow;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid burlywood ;
+    width: 91%;
 }
