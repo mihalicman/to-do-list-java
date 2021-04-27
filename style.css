@@ -69,3 +69,23 @@ input#termiņš {
     border: 1px solid burlywood ;
     width: 25%;
 }
+
+#biblioteka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.uzdevumi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+
+    background-color:khaki;
+}
